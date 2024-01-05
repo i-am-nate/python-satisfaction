@@ -12,4 +12,4 @@ The goal of with this project is to analyze a dataset and build predictive model
 
 This is the complete code notebook for analyzing employee data for Salifort Motors, looking specifically at why the turnover rate is so high, looking to compare variables to find correlations to shed some light on the situation and potential ways to raise over satisfaction scores and ultimately retain more employees.
 
-** Relevent Python packages: numpy, Pandas, Scipy, seaborn, Matplotlib, statsmodels, scikit-learn **
+* Relevent Python packages: numpy, Pandas, Scipy, seaborn, Matplotlib, statsmodels, scikit-learn *
