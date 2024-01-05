@@ -20,7 +20,9 @@ Yet the most recent evaluation scores were around equivalent between the two gro
 ### Data understanding
 The first step was to import relevant packages and the csv into a pandas dataframe. I then performed basic data cleaning by checking for empty cells (none) and duplicate values (3008 found and removed), renaming columns, and converting categorical features into numerical representations.
 
-In exploring the data, we had 10,000 observations of employees who stayed — 83.4% of the entire base. I started with inititally visualizing employee satisfaction score to other features, looking for a connection. But I quickly noticed the overall company promotion rate looked very low, and indeed was: only 1.69% of employees across the entire company had been promoted over a 5 year period.
+In exploring the data, we had exactly 10,000 observations of employees who stayed — 83.4% of the entire base. I started with inititally visualizing employee satisfaction score to other features, looking for a connection. But I quickly noticed the overall company promotion rate looked very low, and indeed was: only 1.69% of employees across the entire company had been promoted over a 5 year period.
+
+![https://github.com/i-am-nate/python-satisfaction/blob/main/images/1.jpg]
 
 Upon further inspection, breaking it down by department, as low as 2 people in IT (0.2%) or 0% of the 686 product management department employees had seen promotion, and the only outlier was 8.26% of the smallest department of 436 people: management.
 
