@@ -10,7 +10,7 @@ This project served as the basis for the capstone of my Google Advanced Data Ana
 
 The accompanying .csv ([HR_capstone_dataset.csv](https://github.com/i-am-nate/python-satisfaction/blob/main/HR_capstone_dataset.csv)) is third-party data synthesized and provided by Google and the Coursera certificate course from which this capstone project originated, and it is used by permsission.
 
-The goal of with this project is to analyze a dataset that can provide insights to the Human Resources (HR) department of a large consulting firm concerning high turnover. Ultimately, it was revealed that higher average monthly working hours
+The goal of with this project is to analyze a dataset that can provide insights to the Human Resources (HR) department of a large consulting firm concerning high turnover. Ultimately, it was revealed that higher average monthly working hours, longer comparative and actual tenure, safer working environment, but relatively no upward mobility (meritocratic or otherwise), despite equivalent performance reviews — this all most likely contributes to the the high turnover.
 
 ### Business understanding
 The problem the business was trying to solve — in this case, the fictitious Salifort Motors — was looking at why the turnover rate is so high and to shed some light on potential ways to raise satisfaction scores (and ultimately retain more employees). An initial metric was satisfaction level, of which the mean averaged 22 points lower for those who had left vs. those still remaining at the company; this is not a surprising finding.
