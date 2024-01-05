@@ -24,9 +24,13 @@ In exploring the data, we had exactly 10,000 observations of employees who staye
 
 ![](https://github.com/i-am-nate/python-satisfaction/blob/main/images/1.jpg)
 
-Upon further inspection, breaking it down by department, as low as 2 people in IT (0.2%) or 0% of the 686 product management department employees had seen promotion, and the only outlier was 8.26% of the smallest department of 436 people: management.
+Upon further inspection, breaking it down by department, as low as 2 people in IT (0.2%) and 0% of all 686 product management department employees had seen promotion; the only outlier was 8.26% of the smallest department of 436 people: management.
+
+![](https://github.com/i-am-nate/python-satisfaction/blob/main/images/2.jpg)
 
 Worse yet, it appeared as if the employees who left actually had better overall performance as employees and weren't being recognized for it. Looking at low- to mid-income salary employees, those who left had average 6-9 months longer tenure at the company (almost 4 years) vs. those who remained. Further, those who left had averaged working an additional 9-10 monthly hours while maintaining a 2-4x safer work accident rate. Remember, this is despite equivalent employee evaluation scores as well.
+
+![](https://github.com/i-am-nate/python-satisfaction/blob/main/images/3.jpg)
 
 ### Modeling
 At the end, I included an OLS regression formula but ended up not needing to further model for my purposes. Relevent Python packages used in the project: numpy, Pandas, Scipy, seaborn, Matplotlib, statsmodels, scikit-learn.
