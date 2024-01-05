@@ -22,7 +22,12 @@ The first step was to import relevant packages and the csv into a pandas datafra
 
 In exploring the data, we had 10,000 observations of employees who stayed — 83.4% of the entire base. I started with inititally visualizing employee satisfaction score to other features, looking for a connection. But I quickly noticed the overall company promotion rate looked very low, and indeed was: only 1.69% of employees across the entire company had been promoted over a 5 year period.
 
+Upon further inspection, breaking it down by department, as low as 2 people in IT (0.2%) or 0% of the 686 product management department employees had seen promotion, and the only outlier was 8.26% of the smallest department of 436 people: management.
+
+Worse yet, it appeared as if the employees who left actually had better overall performance as employees and weren't being recognized for it. Looking at low- to mid-income salary employees, those who left had average 6-9 months longer tenure at the company (almost 4 years) vs. those who remained. Further, those who left had averaged working an additional 9-10 monthly hours while maintaining a 2-4x safer work accident rate. Remember, this is despite equivalent employee evaluation scores as well.
+
 ### Modeling
-At the end, I included a an OLS regression formula but ended up not needing to further model for my purposes. Overall, relevent Python packages used in the project: numpy, Pandas, Scipy, seaborn, Matplotlib, statsmodels, scikit-learn.
+At the end, I included an OLS regression formula but ended up not needing to further model for my purposes. Relevent Python packages used in the project: numpy, Pandas, Scipy, seaborn, Matplotlib, statsmodels, scikit-learn.
 
 ### Conclusion
+Overall, one of the biggest factors in retaining specifically low- to mid-level income employees comes down to recognition. With such low promotion rates, it might behoove the company as a next step to develop more rigorous review and reward mechanisms for promotion from within — or to evaluate root causes as to current low promotion rate.
