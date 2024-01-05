@@ -3,7 +3,7 @@
 ## Visualizing employee satisfaction comparisons in Python
 
 ### About
-Analyzing a dataset and building predictive models with Python that can provide insights to the Human Resources (HR) department of a large consulting firm. Relevant Python Packages: numpy, Pandas, Scipy, seaborn, Matplotlib, statsmodels, scikit-learn
+Analyzing a dataset with Python to provide insights to the Human Resources (HR) department of a large consulting firm. Relevant Python Packages: numpy, Pandas, Scipy, seaborn, Matplotlib, statsmodels, scikit-learn
 
 ### Overview
 This project served as the basis for the capstone of my Google Advanced Data Analytics Certificate (01/2024)—which a cleaned up version of the Jupyter notebook file is included in this repository ([python_satisfaction.ipynb](https://github.com/i-am-nate/python-satisfaction/blob/main/python_satisfaction.ipynb)). It shows my work from beginning to end and my process of importing, data cleaning, transformation, formulization, and visualization using Python.
